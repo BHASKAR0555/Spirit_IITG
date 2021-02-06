@@ -1,0 +1,525 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.custom_lists_col
+	{
+		margin-top: 100px;
+	}
+	.upcoming_image
+	{
+		left: -372px;
+	}
+	.player_num
+	{
+		width: 61px;
+		height: 61px;
+		line-height: 61px;
+		font-size: 36px;
+	}
+	.player_name
+	{
+		font-size: 48px;
+		margin-bottom: -1px;
+	}
+	.player_images
+	{
+		position: relative;
+		left: auto;
+		bottom: auto;
+		padding-top: 0;
+		width: 100%;
+		padding-left: 0;
+	}
+	.player_image
+	{
+		width: calc((100% - 40px) / 2);
+	}
+	.cta_text
+	{
+		font-size: 36px;
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.home_text
+	{
+		padding-left: 91px;
+		padding-right: 25px;
+	}
+	.home_text > div
+	{
+		top: -26px;
+		width: 77px;
+    	height: 123px;
+    	font-size: 72px;
+	}
+	.home_text span
+	{
+		font-size: 48px;
+	}
+	.main_nav_container_outer
+	{
+		height: 124px;
+	}
+	.main_nav_container > div:not(:nth-child(2)) ul
+	{
+		display: none !important;
+	}
+	.logo_container
+	{
+		width: 180px;
+	}
+	.header_live a > div > div:last-child
+	{
+		display: none;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.result:first-child .result_content
+	{
+		padding-right: 10px;
+	}
+	.result:last-child .result_content
+	{
+		padding-left: 10px;
+	}
+	.result_num
+	{
+		font-size: 36px;
+	}
+	.result_team
+	{
+		font-size: 18px;
+	}
+	.results_container
+	{
+		margin-top: 60px;
+	}
+	.result_text
+	{
+		margin-top: 32px;
+	}
+	.result_text p
+	{
+		font-size: 14px;
+	}
+	.result_team
+	{
+		margin-top: 22px;
+	}
+	.team_image
+	{
+		height: 152px;
+	}
+	.result:first-child .result_content::after
+	{
+		bottom: 20px;
+		height: 100px;
+	}
+	.footer_image
+	{
+		position: relative;
+		right: auto;
+		bottom: auto;
+		width: 100%;
+	}
+	.footer_contact_info
+	{
+		padding-bottom: 0;
+	}
+	.newsletter
+	{
+		padding-top: 100px;
+		padding-bottom: 0;
+	}
+	.footer_image
+	{
+		padding-top: 100px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.menu_background
+	{
+		right: -80%;
+		width: 80%;
+	}
+	.home_text span
+	{
+		font-size: 36px;
+	}
+	.home_text > div
+	{
+		top: -22px;
+	    width: 62px;
+	    height: 106px;
+	    font-size: 48px;
+		line-height: 97px;
+	}
+	.home_text
+	{
+		padding-left: 74px;
+	}
+	.home_slider_nav
+	{
+		width: 72px;
+		height: 72px;
+		font-size: 16px;
+		line-height: 72px;
+	}
+	.next_match_home,
+	.next_match_guest
+	{
+		height: 60px;
+	}
+	.next_match_guest a,
+	.next_match_home a
+	{
+		font-size: 24px;
+		line-height: 60px;
+	}
+	.next_match_home
+	{
+		margin-left: -22px;
+	}
+	.next_match_home a
+	{
+		padding-left: 48px;
+	}
+	.next_match_guest
+	{
+		margin-right: -22px;
+	}
+	.next_match_guest a
+	{
+		padding-right: 50px;
+	}
+	.vs
+	{
+		font-size: 100px;
+	}
+	.header_bar_content
+	{
+		height: 30px;
+	}
+	.header_live a > div > div:first-child
+	{
+		width: 47px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+	.user_area
+	{
+		margin-left: 23px;
+	}
+	.logo_container
+	{
+		width: 140px;
+	}
+	.main_nav_container_outer
+	{
+		height: 107px;
+	}
+	.player_num
+	{
+		width: 51px;
+		height: 51px;
+		line-height: 51px;
+		font-size: 30px;
+	}
+	.player_name
+	{
+		font-size: 36px;
+	}
+	.cta_button
+	{
+		margin-top: 21px;
+	}
+	.footer_bar_content
+	{
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.cr
+	{
+		margin-top: 10px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p
+	{
+		font-size: 14px;
+	}
+	.menu_background
+	{
+		width: 100%;
+		transform-origin: bottom right;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+	.header_bar
+	{
+		display: none;
+	}
+	.main_nav_container_outer
+	{
+		height: 90px;
+	}
+	.header.scrolled .main_nav_container_outer
+	{
+		height: 90px;
+	}
+	.header.scrolled .logo_container > div
+	{
+		top: -60px;
+		width: 140px;
+	}
+	.hamburger
+	{
+		bottom: 30px;
+	}
+	.menu_background
+	{
+		padding-right: 0;
+	}
+	.menu_container
+	{
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+	.menu_user_area
+	{
+		display: block;
+	}
+	.menu_nav
+	{
+		margin-top: 50px;
+	}
+	.main_nav_container > div:not(:nth-child(2))
+	{
+		width: calc((100% - 140px) / 2);
+	}
+	.main_nav_container .header_live
+	{
+		display: block;
+		-webkit-transform: translateY(-18px);
+		-moz-transform: translateY(-18px);
+		-ms-transform: translateY(-18px);
+		-o-transform: translateY(-18px);
+		transform: translateY(-18px);
+	}
+	.home_slider_nav
+	{
+		display: none;
+	}
+	.button
+	{
+		width: 150px;
+		height: 54px;
+	}
+	.button a
+	{
+		font-size: 12px;
+		line-height: 52px;
+	}
+	.custom_list_title_container
+	{
+		padding-left: 30px;
+	}
+	.custom_list_a ul li
+	{
+		padding-left: 15px;
+		padding-right: 20px;
+	}
+	.custom_list_title a
+	{
+		font-size: 16px;
+	}
+	.custom_list_link
+	{
+		width: 90px;
+		height: 38px;
+	}
+	.custom_list_link a
+	{
+		font-size: 14px;
+		line-height: 38px;
+	}
+	.team_name a
+	{
+		font-size: 14px;
+	}
+	.upcoming_image
+	{
+		display: none;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
