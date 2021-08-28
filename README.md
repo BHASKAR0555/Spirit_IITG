@@ -1,2 +1,2 @@
-# spirit-website
-Official website for the Spirit, the annual sport's fest of IIT Guwahati. 
+# spirit-
+websitewebsite for the Spirit, the annual sport's fest of IIT Guwahati. 
